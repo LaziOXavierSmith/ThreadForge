@@ -1,0 +1,21 @@
+{
+  "name": "threadforge",
+  "version": "0.1.0",
+  "description": "Multi-agent AI content engine for Threads — plan → write → review → publish.",
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "demo": "tsx examples/run.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": ["threads", "ai-agents", "content-automation", "llm", "multi-agent"],
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "openai": "^4.77.0"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.2",
+    "typescript": "^5.6.3"
+  }
+}
